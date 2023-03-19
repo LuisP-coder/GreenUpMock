@@ -1,0 +1,20 @@
+
+
+function initMap() {
+  var sanLeandro = {
+    lat: 37.73249,
+    lng: -122.1561
+  };
+  
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 15,
+    center: sanLeandro
+  });
+  var sanLeandroMarker = new google.maps.Marker({
+    position: sanLeandro,
+    map: map
+  });
+}
+
+initMap();
+
