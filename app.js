@@ -1,5 +1,4 @@
-
-
+// Adding Google Map section for Company "Headquarters"
 function initMap() {
   var sanLeandro = {
     lat: 37.73249,
@@ -17,4 +16,3 @@ function initMap() {
 }
 
 initMap();
-
