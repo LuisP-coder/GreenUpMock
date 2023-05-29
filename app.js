@@ -1,4 +1,15 @@
-// Adding Google Map section for Company "Headquarters"
+// Dropdown menu code
+const buttons = document.querySelectorAll(".question-button");
+
+buttons.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+        const question = e.currentTarget.parentElement.
+        parentElement;
+        question.classList.toggle("show-text");
+    });
+});
+
+// Google Maps section
 function initMap() {
   var sanLeandro = {
     lat: 37.73249,
