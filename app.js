@@ -25,5 +25,5 @@ function initMap() {
     map: map
   });
 }
-
+// Initiates Map
 initMap();
