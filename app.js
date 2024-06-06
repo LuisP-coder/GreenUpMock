@@ -27,3 +27,4 @@ function initMap() {
 }
 // Initiates Map
 initMap();
+ 
